@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/futuretech/static/css/main.073c9b0a.css",
+    "main.js": "/futuretech/static/js/main.2d70c081.js",
+    "static/js/787.ffae4092.chunk.js": "/futuretech/static/js/787.ffae4092.chunk.js",
+    "static/media/logo.svg": "/futuretech/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/futuretech/index.html",
+    "main.073c9b0a.css.map": "/futuretech/static/css/main.073c9b0a.css.map",
+    "main.2d70c081.js.map": "/futuretech/static/js/main.2d70c081.js.map",
+    "787.ffae4092.chunk.js.map": "/futuretech/static/js/787.ffae4092.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.2d70c081.js"
+  ]
+}
