@@ -1,16 +1,13 @@
 {
   "files": {
-    "main.css": "/futuretech/static/css/main.073c9b0a.css",
-    "main.js": "/futuretech/static/js/main.2d70c081.js",
-    "static/js/787.ffae4092.chunk.js": "/futuretech/static/js/787.ffae4092.chunk.js",
-    "static/media/logo.svg": "/futuretech/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.js": "/futuretech/static/js/main.13e9b2b4.js",
+    "static/media/imgSetupPc.jfif": "/futuretech/static/media/imgSetupPc.d559ccebdb7e8b5e2424.jfif",
+    "static/media/tech.jfif": "/futuretech/static/media/tech.3c91831f6f45e5b9d994.jfif",
+    "static/media/evolucaotech.jfif": "/futuretech/static/media/evolucaotech.b4fea841f47c4afb644b.jfif",
     "index.html": "/futuretech/index.html",
-    "main.073c9b0a.css.map": "/futuretech/static/css/main.073c9b0a.css.map",
-    "main.2d70c081.js.map": "/futuretech/static/js/main.2d70c081.js.map",
-    "787.ffae4092.chunk.js.map": "/futuretech/static/js/787.ffae4092.chunk.js.map"
+    "main.13e9b2b4.js.map": "/futuretech/static/js/main.13e9b2b4.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.2d70c081.js"
+    "static/js/main.13e9b2b4.js"
   ]
 }
