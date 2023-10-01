@@ -20,7 +20,10 @@ jobs:
     - name: Install Node.js
       uses: actions/setup-node@v1
       with:
-        node-version: 18.x
+        node-version: 13.x
+    
+    - name: Install NPM packages
+      run: npm ci
     
     - name: Build project
       run: npm run build
