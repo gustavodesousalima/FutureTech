@@ -1,13 +1,17 @@
 {
   "files": {
-    "main.js": "/futuretech/static/js/main.1799b95f.js",
-    "static/media/imgSetupPc.jfif": "/futuretech/static/media/imgSetupPc.d559ccebdb7e8b5e2424.jfif",
+    "main.js": "/futuretech/static/js/main.b6051506.js",
+    "static/media/computacaoquantica.jfif": "/futuretech/static/media/computacaoquantica.846511d865fe3db3a08a.jfif",
     "static/media/tech.jfif": "/futuretech/static/media/tech.3c91831f6f45e5b9d994.jfif",
     "static/media/evolucaotech.jfif": "/futuretech/static/media/evolucaotech.b4fea841f47c4afb644b.jfif",
+    "static/media/img5g.jfif": "/futuretech/static/media/img5g.9afd0a4f227ba5ca949c.jfif",
+    "static/media/realidadeaumentada.jfif": "/futuretech/static/media/realidadeaumentada.79b3386a57cd50c54a0f.jfif",
+    "static/media/inteligenciaartificial.jfif": "/futuretech/static/media/inteligenciaartificial.4364de4cee09dbfbb814.jfif",
+    "static/media/influencia.jfif": "/futuretech/static/media/influencia.545e2c38f38740754e96.jfif",
     "index.html": "/futuretech/index.html",
-    "main.1799b95f.js.map": "/futuretech/static/js/main.1799b95f.js.map"
+    "main.b6051506.js.map": "/futuretech/static/js/main.b6051506.js.map"
   },
   "entrypoints": [
-    "static/js/main.1799b95f.js"
+    "static/js/main.b6051506.js"
   ]
 }
