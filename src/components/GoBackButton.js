@@ -19,10 +19,10 @@ const Button = styled.button`
     cursor: pointer;
 
     @media screen and (max-width: 480px) {
-        background-size: 2.5vh;
-        width: 30px;
-        height: 30px;
-        right: 2px;
+        background-size: 3vh;
+        width: 32px;
+        height: 32px;
+        right: 6px;
     }
 `;
 

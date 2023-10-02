@@ -1,8 +1,12 @@
 import React from "react";
 import styled from "styled-components";
-import Img1 from '../img/imgSetupPc.jfif';
-import Img2 from '../img/tech.jfif';
-import Img3 from '../img/evolucaotech.jfif';
+import Tech from '../img/tech.jfif';
+import Evolucaotech from '../img/evolucaotech.jfif';
+import Img5g from '../img/img5g.jfif';
+import Imginfluencia from '../img/influencia.jfif';
+import Inteligenciaartificial from '../img/inteligenciaartificial.jfif';
+import Computacaoquantica from '../img/computacaoquantica.jfif';
+import realidadeaumentada from '../img/realidadeaumentada.jfif';
 import GoBackButton from './GoBackButton';
 
 const Conteiner = styled.article`
@@ -45,7 +49,7 @@ const Figure = styled.figure`
 
 const Imagem = styled.img`
     width: 50vh;
-    height: 70vh;
+    height: 65vh;
     border-radius: 2vh;
     box-shadow: 0px 0px 24px 2px rgba(0,240,72,0.62);
 
@@ -68,6 +72,11 @@ const ConteinerText = styled.div`
     margin: 10vh;
     width: 90%;
     gap: 2vh;
+
+    @media screen and (max-width: 480px){
+        margin: 4vh;
+        gap: 1vh;
+    }
     `;
 
 const ConteinerConteudo = styled.div`
@@ -86,18 +95,26 @@ const ConteinerConteudo = styled.div`
     }
 
     @media screen and (max-width: 480px) {
-        width: 80%;
+        &:last-child{
+            height: 40vh;
+            gap: 0vh;
+        }
     }
     `;
 
 const TitlePrimary = styled.h1`
+    background-color: #333;
+    border: 2px solid green;
+    border-radius: 1vh;
+    padding: 2vh;
     color: #00CC66;
+    font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     text-align: center;
 
     @media screen and (max-width: 480px) {
-        font-size: 0.9rem;
+        font-size: 1.2rem;
     }
 `;
 
@@ -107,7 +124,8 @@ const TitleSecondary = styled.h2`
     text-align: center;
 
     @media screen and (max-width: 480px) {
-        font-size: 0.9rem;
+        margin-top: 2vh;
+        font-size: 1.3rem;
     }
 `;
 
@@ -118,7 +136,7 @@ const Text = styled.p`
     text-align: center;
 
     @media screen and (max-width: 480px){
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 `;
 
@@ -136,7 +154,7 @@ const TextSecondary = styled.p`
     @media screen and (max-width: 480px) {
         text-align: center;
         flex-direction: column;
-        font-size: 0.7rem;
+        font-size: 0.9rem;
     }
 
 `;
@@ -157,17 +175,17 @@ const Article = () => {
     return (
         <Conteiner>
             <ConteinerConteudo>
-                <TitlePrimary>As Tendências Tecnológicas</TitlePrimary>
+                <TitlePrimary>Future Tech: As tendências tecnológicas</TitlePrimary>
                 <ContainerPrimaryFigure>
-                    <Imagem src={Img1} alt="Imagem setup PC" />
-                    <Imagem src={Img2} alt="Imagem tecnologia" />
-                    <Imagem src={Img3} alt="Imagem computação" />
+                    <Imagem src={Inteligenciaartificial} alt="Imagem setup PC" />
+                    <Imagem src={Tech} alt="Imagem tecnologia" />
+                    <Imagem src={Imginfluencia} alt="Imagem computação" />
                 </ContainerPrimaryFigure>
             </ConteinerConteudo>
             <GoBackButton/>
             <ConteinerConteudo>
                 <Figure>
-                    <Imagem src={Img1} alt="Imagem setup PC" />
+                    <Imagem src={Evolucaotech} alt="Influencia tecnologica" />
                     <FigureCaption>
                         <TitleSecondary>Influência</TitleSecondary>
                         <Text>
@@ -185,13 +203,13 @@ const Article = () => {
                             A Inteligência Artificial é uma das tendências mais empolgantes e transformadoras na tecnologia atual. Com avanços contínuos em aprendizado de máquina e processamento de linguagem natural, a IA está sendo aplicada em uma variedade de setores, desde assistentes pessoais virtuais até carros autônomos. A IA também está desempenhando um papel fundamental na automação de tarefas repetitivas e na análise de dados em larga escala.
                         </Text>
                     </FigureCaption>
-                    <Imagem src={Img1} alt="Imagem setup PC" />
+                    <Imagem src={Inteligenciaartificial} alt="Inteligencia artificial usando mão para agarrar homem correndo" />
                 </Figure>
             </ConteinerConteudo>
 
             <ConteinerConteudo>
                 <Figure>
-                    <Imagem src={Img1} alt="Imagem setup PC" />
+                    <Imagem src={Img5g} alt="Planeta terra" />
                     <FigureCaption>
                         <TitleSecondary>5G e Conectividade Ultra-rápida</TitleSecondary>
                         <Text>
@@ -209,13 +227,13 @@ const Article = () => {
                             A RA e a RV estão mudando a forma como interagimos com o mundo digital. Os headsets de RV estão oferecendo experiências imersivas em jogos, treinamento e educação. Enquanto isso, a RA está sendo usada em aplicativos móveis para criar experiências interativas em tempo real, como o popular jogo Pokémon GO.
                         </Text>
                     </FigureCaption>
-                    <Imagem src={Img1} alt="Imagem setup PC" />
+                    <Imagem src={realidadeaumentada} alt="Mulher usando oculos de realidade aumentada" />
                 </Figure>
             </ConteinerConteudo>
 
             <ConteinerConteudo>
                 <Figure>
-                    <Imagem src={Img1} alt="Imagem setup PC" />
+                    <Imagem src={Computacaoquantica} alt="Computador quantico" />
                     <FigureCaption>
                         <TitleSecondary>Computação Quântica</TitleSecondary>
                         <Text>

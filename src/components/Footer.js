@@ -23,10 +23,22 @@ const Figure = styled.div`
 
 const Icon = styled.img`
     width: 7vh;
+
+    @media screen and (max-width: 480px) {
+        width: 5vh;
+    }
 `;
 
 const P = styled.p`
     color: #00CC66;
+
+    @media screen and (max-width: 480px) {
+        font-size: 0.9rem;
+    }
+`;
+
+const A = styled.a`
+    cursor: pointer;
 `;
 
 
@@ -35,9 +47,17 @@ const Footer = () => {
         <footer>
             <Conteiner>
                 <Figure>
-                    <Icon src="https://icon.signature.email/social/linkedin-circle-medium-0077b5-FFFFFF.png" />
-                    <Icon src="https://icon.signature.email/social/google-circle-medium-e4443d-FFFFFF.png" />
-                    <Icon src="https://skillicons.dev/icons?i=github" />
+                    <A href='https://www.linkedin.com/in/gustavo-developer/' target='_blank'>
+                        <Icon src="https://icon.signature.email/social/linkedin-circle-medium-0077b5-FFFFFF.png"></Icon>
+                    </A>
+
+                    <A href='https://github.com/GustavodeSousaLima' target='_blank'>
+                        <Icon src="https://skillicons.dev/icons?i=github" />
+                    </A>
+
+                    <A href='mailto:gustavdesousalima@gmail.com'>
+                        <Icon src="https://icon.signature.email/social/google-circle-medium-e4443d-FFFFFF.png" />
+                    </A>
                 </Figure>
 
                 <P>&copy; 2023 FutureTech. Todos os direitos reservados.</P>

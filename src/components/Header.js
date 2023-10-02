@@ -13,6 +13,7 @@ const HeaderContainer = styled.header`
     border-bottom: 2px solid #00CC66;
 
     @media screen and (max-width: 480px) {
+        height: 8vh;
         gap: 2vh;
         padding-top: 4vh;
     }
@@ -40,10 +41,10 @@ const Nav = styled.nav`
     justify-content:center;
     align-items: center;
     margin-right: 8vh;
-    gap: 2vh;
+    gap: 4vh;
 
     @media screen and (max-width: 480px) {
-        gap: 4vh;
+        gap: 2vh;
     }
 `;
 
@@ -69,9 +70,9 @@ const Header = () => {
                 <A href='#'><Imagem src={Logo} alt="Logo" /></A>
             </Figure>
             <Nav>
-                <A>Home</A>
+                <A href='#'>Home</A>
                 <A href='https://forbes.com.br/forbes-tech/2022/01/10-tendencias-tecnologicas-que-transformarao-o-mundo/' target='_blank'>Explorar</A>
-                <A>Contato</A>
+                <A href='https://www.linkedin.com/in/gustavo-developer/' target='_blank'>Contato</A>
             </Nav>
         </HeaderContainer>
     );
