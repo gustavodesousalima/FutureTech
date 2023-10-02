@@ -6,6 +6,7 @@ import styled from 'styled-components';
 
 const TestComponent = styled.div`
     background-color: black;
+    width: 100%;
 `
 
 const Home = () => {

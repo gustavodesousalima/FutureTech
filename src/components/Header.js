@@ -14,6 +14,7 @@ const HeaderContainer = styled.header`
 
     @media screen and (max-width: 480px) {
         gap: 2vh;
+        padding-top: 4vh;
     }
 `;
 
@@ -28,6 +29,10 @@ const Figure = styled.div`
 const Imagem = styled.img`
     max-width: 18vh;
     cursor: pointer;
+
+    @media screen and (max-width:480px) {
+        max-width: 10vh;
+    }
 `;
 
 const Nav = styled.nav`
@@ -38,7 +43,7 @@ const Nav = styled.nav`
     gap: 2vh;
 
     @media screen and (max-width: 480px) {
-        gap: 8vh;
+        gap: 4vh;
     }
 `;
 
