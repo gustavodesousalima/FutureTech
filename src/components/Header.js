@@ -3,49 +3,57 @@ import styled from 'styled-components';
 import Logo from '../img/logo.png';
 
 const HeaderContainer = styled.header`
-
+    background-color: #333;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
-    color: #fff;
     padding: 2vh;
     width: 100%;
     height: 12vh;
-    border-bottom: 2px solid green;
+    border-bottom: 2px solid #00CC66;
 
+    @media screen and (max-width: 480px) {
+        gap: 2vh;
+    }
 `;
 
-const Figure = styled.header`
+const Figure = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 18vh;
     border-radius: 10%;
-    width: 10vh;
-height: 10vh;
-`;
-const Imagem = styled.img`
+    `;
 
-max-width: 18vh;
+const Imagem = styled.img`
+    max-width: 18vh;
+    cursor: pointer;
 `;
 
 const Nav = styled.nav`
-
     display: flex;
     justify-content:center;
     align-items: center;
     margin-right: 8vh;
     gap: 2vh;
+
+    @media screen and (max-width: 480px) {
+        gap: 8vh;
+    }
 `;
 
 const A = styled.a`
-    color: green;
+    color:  #00CC66;
+    text-decoration: none;
     transition:  color 0,2s;
-    cursor: pointer;
 
     &:hover {
-        color: lightgreen;
-        text-decoration: underline;
+    color: #66FF66;
+    text-decoration: underline;
+    }
+
+    @media screen and (max-width: 480px) {
+        font-size: 1.2rem;
     }
 `;
 
@@ -57,7 +65,7 @@ const Header = () => {
             </Figure>
             <Nav>
                 <A>Home</A>
-                <A>Quem somos</A>
+                <A href='https://forbes.com.br/forbes-tech/2022/01/10-tendencias-tecnologicas-que-transformarao-o-mundo/' target='_blank'>Explorar</A>
                 <A>Contato</A>
             </Nav>
         </HeaderContainer>
